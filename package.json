@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "矩形计算器，计算矩形的面积和周长",
   "main": "rectangle.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
     "grunt": "^1.0.3",
     "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
     "grunt-eslint": "^21.0.0",
-    "grunt-htmlhint": "^0.9.13"
+    "grunt-htmlhint": "^0.9.13",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "grunt lint"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
