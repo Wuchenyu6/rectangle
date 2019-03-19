@@ -4,7 +4,7 @@ module.exports = function (grunt) {
       options: {  
         configFile: '.eslintrc.json'            
       },      
-      target: ['rectangle.js']
+      target: ['*.js']
     },
     csslint: {
       options:{
