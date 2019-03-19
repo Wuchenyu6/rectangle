@@ -1,6 +1,8 @@
-function rectangle(width,height){
+/*exported Rectangle*/
+function Rectangle(width,height){
   var w = Number(width),
       h = Number(height);
+  
   this.area = function() {
     return w * h;      
   };
